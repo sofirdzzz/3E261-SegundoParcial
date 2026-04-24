@@ -17,7 +17,7 @@ class foco {
  }
 Usuario o-- Foco 
 Foco *--EstadoFoco
-EstadoFoco --|>Booleano
+EstadoFoco --|>Texto
 SerieFocos "1" *-- "10" Foco
 Usuario o-- SerieFocos
 
