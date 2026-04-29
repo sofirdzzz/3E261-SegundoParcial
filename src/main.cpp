@@ -1,11 +1,11 @@
+
 #include <iostream>
 #include <Foco.hpp>
 #include <SerieFocos.hpp>
 
+using namespace std;
 
-
-int main ( int argc, char * arg[])
-    
+int main(int argc, char const *argv[]) 
 {
     SerieFocos serie;
     serie.EncenderFocos();
@@ -15,3 +15,4 @@ int main ( int argc, char * arg[])
 
     return 0;
 }
+
