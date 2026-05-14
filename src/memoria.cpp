@@ -29,6 +29,12 @@ int main(int argc, char const *argv[])
     cout << &direccion << endl;
     cout << *direccion << endl;
 
+    //lenguaje en c MEMORIA DINAMOCA
+    int* dir = (int*) malloc (sizeof(int));
+    *dir=7;
+      cout << *dir << endl;
+// c++ MEMORIA DINAMOCA
+      int*dir2 = new int;
 
     return 0;
 }
